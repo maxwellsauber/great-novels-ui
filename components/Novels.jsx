@@ -3,7 +3,6 @@ import Novel from './Novel'
 import Search from './Search'
 import { filterNovels, retrieveNovels } from '../utils/novels'
 
-
 export default () => {
   const [novelList, setNovelList] = useState([])
   const [filterNovelList, setFilterNovelList] = useState([])
